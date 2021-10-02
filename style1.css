@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;900&display=swap');
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-color: whitesmoke;
+font-family: 'Rubik', sans-serif;
+height: 100vh;
+}
+
+.header
+{
+	color: #FFBD59;font-family: 'Rubik', sans-serif; font-weight: 600; font-size: 50px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 50px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+#logo
+{
+	width: 80px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 55%;border-radius: 10px;
+	height: 45px;
+	font-size: 20px;
+	border: 5px solid #FFBD59;
+	transition: 0.6s ease;
+	font-weight: 600;
+}
+#login_button:hover
+{
+	width: 64%;border-radius: 10px;
+	height: 45px;
+	font-size: 20px;
+	font-weight: 600;
+	border-color: #FFDE59;
+}
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 4px;
+}
+
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+#user_name_label {
+	font-size: 20px;
+	font-weight: 600;
+}
+#error{
+	color:red;
+	font-size: 0.1px;
+}
+#userName{
+	color: #FFBD59;
+	font-size: 37px;
+}
+label{
+	color: #FFBD59;
+	font-size: 30px;
+	font-weight: 500;
+}
+#add_room{
+	height: 40px;
+	width: 200px;
+	background-color: #FFBD59;
+	border: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #e6e6e6;
+	transition: 0.6s ease;
+}
+#add_room:hover{
+		width: 230px;
+		background-color: #FFDE59;
+}
+#popular_rooms{
+	color: #FFBD59;
+	font-weight: 600;
+}
+#X{
+	color: #FFBD59;
+}
+#logout{
+	background-color: #FFDE59;
+	border: none;
+	border-radius: 5px;
+	width: 120px;
+	height: 40px;
+	margin-top: 20px;
+	transition: 0.6s ease;
+}
+#logout:hover{
+	background-color: #ec3c3c;
+}
+#user_image{
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 13px;
+}
+#userName{
+	float: right;
+	margin-right: 30px;
+}
+#error_label{
+	font-size: 0.1px;
+	color: red;
+}
+#msg{
+	height: 30px;
+	width: 100px;
+}
